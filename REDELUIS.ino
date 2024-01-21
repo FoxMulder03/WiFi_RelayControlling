@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
-const char* ssid = "ALUNOS"; //"brisa-2425476"; "TP-LINK_7880EC" "ALUNOS"
-const char* password = "ifce.aluno"; //"wgpdtnk1"; "58818848" "aluno.ifce"
-int ledPin = 2; // Arduino standard is GPIO13 but lolin nodeMCU is 2 http://www.esp8266.com/viewtopic.php?f=26&t=13410#p61332
+const char* ssid = "Your SSID Here"; //"brisa-2425476"; "TP-LINK_7880EC" "ALUNOS"
+const char* password = "Your password here"; //"wgpdtnk1"; "58818848" "aluno.ifce"
+int ledPin = 2; // 
 int relay1 = 5;
 WiFiServer server(80);
 void setup() 
